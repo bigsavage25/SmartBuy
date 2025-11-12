@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Buy - Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Smart Buy</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" id="login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact container">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="center">Have questions? Reach out and we’ll get back to you.</p>
+
+    <div class="form-container">
+      <form class="form" onsubmit="event.preventDefault(); alert('Message sent (demo).')">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div style="text-align:center; margin-top:12px;">
+      <p>Phone: +2349161833066</p>
+      <p>Email: <a href="mailto:udejohnchi@gmail.com">udejohnchi@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container center">
+      <p>&copy; 2025 Smart Buy. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
